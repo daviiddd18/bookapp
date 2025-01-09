@@ -17,6 +17,7 @@
 ### PHPUnit ###
 /phpunit.xml
 .phpunit.result.cache
+phpunit.xml.dist
 
 ### Logs y caché ###
 /var/log/
@@ -34,3 +35,4 @@
 /node_modules/
 /dist/
 /coverage/
+composer.lock
