@@ -1,26 +1,34 @@
-###> symfony/framework-bundle ###
-/.env.dev
+### Symfony Configurations ###
 /.env
 /.env.local
 /.env.local.php
 /.env.*.local
 /config/secrets/prod/prod.decrypt.private.php
-/public/bundles/
+
+### Ignorar carpetas generadas ###
 /var/
 /vendor/
-###< symfony/framework-bundle ###
+/public/bundles/
 
-###> phpunit/phpunit ###
-/phpunit.xml
-.phpunit.result.cache
-###< phpunit/phpunit ###
-
-###> symfony/phpunit-bridge ###
-.phpunit.result.cache
-/phpunit.xml
-###< symfony/phpunit-bridge ###
-
-###> symfony/asset-mapper ###
+### Ignorar activos generados ###
 /public/assets/
 /assets/vendor/
-###< symfony/asset-mapper ###
+
+### PHPUnit ###
+/phpunit.xml
+.phpunit.result.cache
+
+### Logs y caché ###
+/var/log/
+/var/cache/
+
+### IDE y herramientas locales ###
+*.idea
+*.vscode
+.DS_Store
+
+### Otros ###
+/node_modules/
+/dist/
+/coverage/
+
