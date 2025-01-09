@@ -1,6 +1,7 @@
 ### Symfony Configurations ###
 .env
-.env.test
+.env.local
+.env.*.local
 /config/secrets/prod/prod.decrypt.private.php
 
 ### Ignorar carpetas generadas ###
@@ -20,6 +21,9 @@
 /var/log/
 /var/cache/
 
+### Symfony lock ###
+/symfony.lock
+
 ### IDE y herramientas locales ###
 *.idea
 *.vscode
@@ -29,4 +33,3 @@
 /node_modules/
 /dist/
 /coverage/
-
